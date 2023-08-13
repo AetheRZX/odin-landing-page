@@ -22,7 +22,7 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     
-    padding: 0 50px;
+    padding: 0 200px;
 
     display:flex;
     justify-content: space-between;
@@ -42,7 +42,10 @@ a {
     color: #F9FAF8;
 
     display: flex;
-    padding: 16px 50px;
+    padding: 16px 200px;
+
+    justify-content: center;
+    gap: 16px;
 }
 
 .content {
@@ -59,10 +62,10 @@ a {
     margin: 0;
 }
 
-/* Fix this image */
 .image {
-    flex: 1;
-    
+    display: flex; 
+    height: 300px;
+    flex: 2;
 }
 
 .sub-text {
@@ -74,14 +77,14 @@ a {
     background-color: #3882F6;
     border: none;
     color: #F9FAF8;
-    padding: 8px 10px;
+    padding: 10px;
     text-align: center;
-    width: 20%;
-    height: 25%;
+    width: 110px;
 
     border-radius: 8px;
+    font-family: 'Roboto', arial;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
     
     justify-content: center;
     align-items: center;
@@ -118,6 +121,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 .subtext{
@@ -133,14 +137,17 @@ a {
     display: flex;
     flex-direction: column;
 
-    padding: 50px 128px;
+    padding: 50px 200px;
 }
 
 .quote-text{
-    font-size: 30px;
+    font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+    font-family: 'Roboto', Arial;
+
+    text-align:justify;
 }
 
 .author {
@@ -148,19 +155,22 @@ a {
     font-weight: bolder;
     color:#1F2937;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
-    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .box {
-    margin: 48px 134px;
+    margin: 48px 200px;
     border-radius: 8px;
     
     background-color: #3882F6;
-    padding: 16px 0px;
+    padding: 36px 0px;
 
     display: flex;  
     justify-content: space-around;
+    align-items: center;
 }
 
 .footer-text {
@@ -178,12 +188,14 @@ a {
 .footer-text p{
     margin: 0;
     margin-bottom: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.smaller-text {
+.box .footer-text .smaller-text {
     color:#E5E7EB;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
 }
 
 .footer-sign-up {
@@ -193,13 +205,16 @@ a {
     border-style: solid;
     border-color:#E5E7EB;
     border-radius: 8px;
-
-    padding: 0px 32px;
+    
+    padding: 8px 36px;
     margin: 0px;
 
-    font-family: 'Roboto';
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+ 
 }
+
 
 /* Copyright */
 .copyright{
