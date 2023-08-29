@@ -44,14 +44,14 @@ a {
     display: flex;
     padding: 16px 200px;
 
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 16px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-
+    
     flex: 1;
 
 }
@@ -64,8 +64,12 @@ a {
 
 .image {
     display: flex; 
+    justify-content: flex-end;
+
     height: 300px;
-    flex: 2;
+    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .sub-text {
